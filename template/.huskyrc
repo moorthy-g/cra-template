@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --extends @commitlint/config-conventional",
+    "pre-commit": "pretty-quick --staged"
+  }
+}
