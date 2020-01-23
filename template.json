@@ -10,7 +10,8 @@
     "husky": "^4.0.10",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "webpack-bundle-analyzer": "^3.6.0"
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpackbar": "^4.0.0"
   },
   "scripts": {
     "start": "craco start",
