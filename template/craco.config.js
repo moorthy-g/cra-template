@@ -1,5 +1,10 @@
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
+// Don't open browser as application starts
+process.env.BROWSER = 'none';
+// Don't generate source map in build
+process.env.GENERATE_SOURCEMAP = 'false';
+
 module.exports = {
   webpack: {
     plugins: [
